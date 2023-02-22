@@ -12,8 +12,6 @@ function BookEdit({ book, onSubmit }) {
     onSubmit(book.id, title);
   };
 
-  
-
   return (
     <form onSubmit={handleSubmit} className="book-edit">
       <label>Title</label>
