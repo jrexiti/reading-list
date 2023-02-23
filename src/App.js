@@ -16,7 +16,7 @@ function App() {
     setbooks(response.data);
   };
 
-  // useEffect renders the function
+  // useEffect renders the function, do not call state mutating functions in App()
   // Second argument as empty array means render once
   useEffect(() => {
     fetchBooks();
